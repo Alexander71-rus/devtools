@@ -1,5 +1,6 @@
-package ru.mentee.power;
+public void main(String[] args) {
 
+}
 public record MenteeProgress(String menteeName, int sprintNumber, int plannedHoursPerWeek) {
 
     public boolean readyForSprint() {
